@@ -1,6 +1,5 @@
 # 📊 User Analytics Database
 
-![License](https://img.shields.io/github/license/amoreiraj/user_analytics_db)
 ![Last Commit](https://img.shields.io/github/last-commit/amoreiraj/user_analytics_db)
 ![Repo Size](https://img.shields.io/github/repo-size/amoreiraj/user_analytics_db)
 ![Top Language](https://img.shields.io/github/languages/top/amoreiraj/user_analytics_db)
