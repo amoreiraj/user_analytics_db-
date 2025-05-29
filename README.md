@@ -1,8 +1,8 @@
 # 📊 User Analytics Database
 
-![Last Commit](https://img.shields.io/github/last-commit/amoreiraj/user_analytics_db)
-![Repo Size](https://img.shields.io/github/repo-size/amoreiraj/user_analytics_db)
-![Top Language](https://img.shields.io/github/languages/top/amoreiraj/user_analytics_db)
+![Last Commit](https://img.shields.io/github/last-commit/amoreiraj/user_analytics_db-)
+![Repo Size](https://img.shields.io/github/repo-size/amoreiraj/user_analytics_db-)
+![Top Language](https://img.shields.io/github/languages/top/amoreiraj/user_analytics_db-)
 ![Stars](https://img.shields.io/github/stars/amoreiraj/user_analytics_db?style=social)
 
 A **MySQL-based** project simulating user engagement and subscription analytics, inspired by platforms like **Google**, **Meta**, and **LinkedIn**.
