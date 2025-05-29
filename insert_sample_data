@@ -1,0 +1,31 @@
+-- Insert into users
+INSERT INTO users (username, email, signup_date, country, is_active) VALUES
+('john_doe', 'john.doe@email.com', '2024-01-15', 'Ireland', TRUE),
+('emma_smith', 'emma.smith@email.com', '2024-03-10', 'UK', TRUE),
+('liam_brown', 'liam.brown@email.com', '2024-05-01', 'Ireland', FALSE);
+
+-- Insert into subscriptions
+INSERT INTO subscriptions (user_id, subscription_type, start_date, end_date, price) VALUES
+(1, 'Premium', '2024-02-01', NULL, 29.99),  -- John has an active subscription
+(2, 'Basic', '2024-04-01', '2025-04-01', 9.99),  -- Emma's subscription is active
+(3, 'Premium', '2024-06-01', '2024-12-31', 29.99);  -- Liam's subscription expired
+
+-- Insert into user_activity
+INSERT INTO user_activity (user_id, activity_type, activity_date) VALUES
+(1, 'Login', '2025-05-24 09:00:00'),
+(1, 'Post', '2025-05-24 10:00:00'),
+(2, 'Comment', '2025-05-24 11:00:00'),
+(3, 'Login', '2025-05-23 08:00:00');
+
+-- Insert into ads
+INSERT INTO ads (ad_name, campaign_id, cost_per_click, start_date, end_date) VALUES
+('Spring Sale', 101, 0.50, '2025-04-01', '2025-06-01'),
+('Tech Conference', 102, 1.20, '2025-05-01', '2025-05-31'),
+('New Feature', 103, 0.80, '2025-05-15', '2025-06-15');
+
+-- Insert into ad_interactions
+INSERT INTO ad_interactions (user_id, ad_id, interaction_type, interaction_date) VALUES
+(1, 1, 'View', '2025-05-24 09:05:00'),
+(1, 1, 'Click', '2025-05-24 09:06:00'),
+(2, 2, 'View', '2025-05-24 11:05:00'),
+(3, 3, 'Click', '2025-05-23 08:10:00');
