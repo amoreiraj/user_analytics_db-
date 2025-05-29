@@ -11,6 +11,8 @@ A **MySQL-based** project simulating user engagement and subscription analytics,
 
 ## 🧠 Overview
 
+The User Analytics Database is a MySQL-based project designed to simulate a tech platform's user engagement and subscription analytics. This project was created as part of a portfolio to demonstrate skills in database design, SQL querying, and data analysis for data analyst and data engineer roles.
+
 ### This project showcases skills in:
 - Database design  
 - SQL querying  
